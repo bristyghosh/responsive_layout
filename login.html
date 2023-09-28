@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <script src="https://kit.fontawesome.com/4266829cf1.js" crossorigin="anonymous"></script>
+    <style>
+        nav{
+            display:flex;
+            justify-content: space-between;
+        }
+        nav a{
+            text-decoration: none;
+            margin-right: 10px;
+            color: blueviolet;
+            font-size: 2em;
+        }
+        .form{
+            display:flex;
+            border:3px dashed black;
+            height:600px;
+            justify-content: center;
+            align-items: center;
+            margin-top:20px;
+        }
+        .login{
+            display: flex;
+            border:2px solid rgb(40, 177, 246);
+            width:50%;
+            flex-direction: column;
+        }
+        .login input{
+            margin-bottom: 10px;
+            padding:5px 10px;
+            font-size: 1.5em;
+            border-radius:10px;
+
+        }
+        input[type="submit"]
+
+        {
+            border:0;
+            border-radius:10px;
+            background-color:goldenrod;
+            color:black;
+            font-size: 1.5em;
+            
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <span>
+            <a href="">Home</a><a href="">Dashboard</a><a href="">Inventory</a>
+        </span>
+        
+        <span>
+            <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+        <a href=""><i class="fa-solid fa-user"></i></a>
+        </span>
+    </nav>
+    <section class="form">
+        <form action="" class="login">
+            <h2>login form</h2>
+            <input type="email " placeholder="enter  email">
+            <input type="password" placeholder="enter password">
+            <input type="submit" value="login">
+        </form>
+    </section>
+</body>
+</html>
